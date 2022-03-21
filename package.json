@@ -1,0 +1,32 @@
+{
+  "name": "compassiot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chunyenHuang/compassIoT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chunyenHuang/compassIoT/issues"
+  },
+  "homepage": "https://github.com/chunyenHuang/compassIoT#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "qs": "^6.10.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "jest": "^27.5.1"
+  }
+}
