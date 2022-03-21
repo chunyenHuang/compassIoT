@@ -3,7 +3,7 @@ const qs = require('qs');
 
 const getBasicToken = (id, secret) => Buffer.from([id, secret].join(':')).toString('base64');
 
-module.exports = class Pandago {
+module.exports = class CompassIoT {
   constructor({
     env = 'sandbox',
     clientId,
